@@ -1,0 +1,47 @@
+/* styles for Capstone
+Justin Aune, 2015*/
+
+body {
+    background-color: gray;
+    
+}
+
+#main {
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: -8px;
+    background-color: white;
+    
+}
+/*the general student homepage*/
+#top {
+    border-bottom: solid 1px black;
+    
+}
+
+.menubar {
+    border-bottom: solid 1px black;
+    text-align: center;
+}
+
+#student {
+    float: left; 
+    width: 399px;
+    border-right: solid 1px black;
+}
+
+#question {
+    float: left;
+    width: 200px;
+}
+
+#instructor {
+    float: left;
+    width: 399px;
+    border-left: solid 1px black;
+    
+}
+
+#bottom {
+    border-top: solid 1px black;
+}

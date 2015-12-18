@@ -1,0 +1,79 @@
+/* styles for Capstone */
+
+body {
+    background-color: black;
+    
+}
+
+#main {
+    /*width: 1000px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: -8px;*/
+    
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0; 
+    width: 1200px; /*otherwise div defaults to page width*/
+    margin: 0 auto;
+    /*width: 1000px;
+    margin: 0px auto;
+    margin-top: -8px;*/
+    background-color: white;
+}
+
+#top {
+    /*border-bottom: solid 1px black;*/
+    
+    width: 1200px;
+    border-bottom: solid 1px black;
+    text-align: center;
+    
+}
+
+#student {
+    float: left; 
+    width: 399px;
+    border-right: solid 1px black;
+}
+
+#question {
+    float: left;
+    width: 200px;
+}
+
+#instructor {
+    float: left;
+    width: 399px;
+    border-left: solid 1px black;
+    
+}
+
+#bottom {
+    /*border-top: solid 1px black;*/
+    
+    width: 1200px;
+    position:absolute;
+    bottom:0;
+    border-top: solid 1px black;
+    text-align: center;
+    
+}
+
+#adminNav {
+    width: 200px;
+    float: left;
+}
+
+#adminMainArea {
+    width: 799px;
+    float: left;
+    boarder-left: solid thin black;
+}
+
+.deleteWarning {
+    font-weight: bold;
+    font-style: italic;
+}
